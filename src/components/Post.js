@@ -11,7 +11,7 @@ export function Post(props) {
   ${showBody ? "show-content p-2 pt-md-4 px-md-4" : "hidden-content mx-2 mx-md-4"}
   `;
 
-  const postStyles = `p-1 p-md-4 point text-center border post
+  const postStyles = `p-1 my-1 my-md-3 p-md-4 point text-center border post
   rounded mx-auto col-10 col-sm-8 col-md-6 border
   ${showBody ? "open-post" : ""}`;
 
