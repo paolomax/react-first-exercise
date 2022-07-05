@@ -12,8 +12,7 @@ export function Post(props) {
   `;
 
   const postStyles = `p-1 my-1 my-md-3 p-md-4 point text-center border post
-  rounded mx-auto col-10 col-sm-8 col-md-6 border
-  ${showBody ? "open-post" : ""}`;
+  rounded mx-auto col-10 col-sm-8 col-md-6 border`;
 
   const chevronDirection = `fas ${
     showBody ? "fa-chevron-up" : "fa-chevron-down"
