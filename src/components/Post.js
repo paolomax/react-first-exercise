@@ -8,7 +8,7 @@ export function Post(props) {
   };
 
   const postContentStyles = `transition-post
-  ${showBody ? "show-content p-2 p-md-4" : "hidden-content mx-2 mx-md-4"}
+  ${showBody ? "show-content p-2 pt-md-4 px-md-4" : "hidden-content mx-2 mx-md-4"}
   `;
 
   const postStyles = `p-1 p-md-4 point text-center border post
