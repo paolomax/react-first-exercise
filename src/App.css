@@ -32,6 +32,11 @@
   margin-bottom: 0;
 }
 
+.chevron-width-align {
+  min-width: 2rem;
+  text-align: right;
+}
+
 @media screen and (max-width: 576px) {
   .open-post {
     margin: 5px auto !important;
